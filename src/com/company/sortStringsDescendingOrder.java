@@ -42,15 +42,10 @@ public class sortStringsDescendingOrder {
     }
 
 
-    //I ignored /n character in the input csv file. Read the question pls.
-    //In the output I am getting one extra ,
-    //how will the path work in there system? (input and output File)
-    //Folder structure
-
-
     @Test
     public void sortStringsInaFileTest() throws IOException {
-
+        
+        //Please give the correct location of the csv file to run the program
         sortStrings("input.csv", "/Users/pboopathi/Documents/backup-mac/gitrepo/TestProject/out/Files/output.csv");
     }
 }
