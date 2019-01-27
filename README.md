@@ -4,3 +4,10 @@
 2.Before running the program give the exact path of the input.csv file in your local machine also give the output path where you want the out.csv to be created
 3.Enter the strings fully caps or fully lower case
 
+
+
+
+#Docker File
+
+1. There is a attached docker file. You need to change the page  before you run the program from you local
+
