@@ -9,7 +9,7 @@
 
 #Docker File
 
-1. There is a attached docker file. You need to change the page  before you run the program from you local
+1. There is a attached docker file. You need to change the  path   before you run the program from you local.  Change the path where you project fiolder  lives.
 
 
 #Gherkin Test
