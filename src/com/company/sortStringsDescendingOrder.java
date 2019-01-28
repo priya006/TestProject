@@ -32,10 +32,11 @@ public class sortStringsDescendingOrder {
         }
 
         FileWriter writer = new FileWriter(outPutFile);
-        for (String val : stringSplited) {
-            writer.write(val);
-            writer.append(",");
-
+        for (int count = 0; count < stringSplited.length; count++)
+        {
+            writer.write(stringSplited[count]);
+            if (count + 1 != stringSplited.length)
+                writer.append(",");
         }
         bufferedReader.close();
         writer.close();
