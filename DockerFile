@@ -1,5 +1,0 @@
- FROM java:8
- COPY ./Users/pboopathi/Desktop/docker
- WORKDIR  /Users/pboopathi/Desktop/docker
- RUN javac sortStringsDescendingOrder.java
- CMD ["java","sortStringsDescendingOrder"]
