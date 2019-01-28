@@ -40,14 +40,4 @@ public class sortStringsDescendingOrder {
         bufferedReader.close();
         writer.close();
     }
-
-
-
-
-    @Test
-    public void sortStringsInaFileTest() throws IOException {
-
-        //Please give the correct location of the csv file to run the program
-        sortStrings("input.csv", "output.csv");
-    }
 }
